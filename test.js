@@ -5,8 +5,7 @@ let quizz = [
         b: "vert",
         c: "bleu",
         d: "rose",
-        vraiReponse: "c",
-      
+        vraiReponse: "c"
     },
     {
         question: " quel est la couleur de la lune",
@@ -14,8 +13,7 @@ let quizz = [
         b: "vert",
         c: "bleu",
         d: "jaune",
-        vraiReponse: "b",
-        
+        vraiReponse: "b"
     },
 ]
 
@@ -34,12 +32,12 @@ quizz.forEach(objet => {
         reponse C : ${objet.c}
         reponse D : ${objet.d}
         
-        `)
+        `).toLowerCase()
     //Comparer la réponse de l'utilisateur avec la réponse que l'on attends
 //si egale "bravo"
 
-let repTexte = objet.vraiReponse
-if (reponse === objet.vraiReponse || reponse === objet[repTexte]) {
+
+if (reponse === objet.vraiReponse) {
     alert("bravo!")
 }
 //si différente "perdu"
@@ -48,6 +46,12 @@ else
 
 
 });
+
+
+
+
+
+
 
 
 
