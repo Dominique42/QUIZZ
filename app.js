@@ -11,7 +11,7 @@
 
 let quizz = [
     {
-        question : "qui a gagné le mans moto 2025?",
+        question: "qui a gagné le mans moto 2025?",
 
         reponse: " zarco",
         reponse2: " marquez",
@@ -23,29 +23,29 @@ let quizz = [
 
 
 let quizz =
-    {
-        question : "qui a été ballon d'or?",
+{
+    question: "qui a été ballon d'or?",
 
-        reponse 1 "casoni ",
-        reponse 2 " platini ",
-        reponse 3 " jeremy",
-        reponse 4 " milla",
+    reponse 1 "casoni ",
+    reponse 2 " platini ",
+    reponse 3 " jeremy",
+    reponse 4 " milla",
 
-        bonne reponse: reponse 2
+    bonne reponse: reponse 2
 
 };
 
 
 let quizz =
-    {
-        question : "qui sera certifie à la toile?",
+{
+    question: "qui sera certifie à la toile?",
 
-        reponse 1 "jeremy";
-        reponse 2 "jean-louis";
-        reponse 3 "Pierre";
-        reponse 4 "lucie";
+    reponse 1 "jeremy";
+    reponse 2 "jean-louis";
+    reponse 3 "Pierre";
+    reponse 4 "lucie";
 
-        bonne reponse 1
+    bonne reponse 1
 
 };
 
@@ -56,7 +56,6 @@ tableau.quizz.forEach(reponses => {
 
 });
 
-console.log (quizz)
-
+console.log(quizz)
 
 
